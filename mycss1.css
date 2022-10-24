@@ -1,0 +1,285 @@
+.rgb{
+    transition: background-color 3s ease-in-out;
+}
+header{
+    height:  6vw;
+    width: 100%;
+    transition: background-color 3s ease-in-out;
+    float: left;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99999;
+}
+.inline_block{
+    display: inline-block;
+
+
+}
+.block1{
+    background-color:rgba(255,255,255,0.1);
+    height: 100%;
+    width: 6vw;
+}
+.block2{
+
+    width: 23vw;
+    text-align: center;
+    box-sizing: content-box;
+    height: 90%;
+    font-size: 2.5vw;
+    position: relative;
+    top: -1.7vw;
+}
+.block3{
+
+    width: 16vw;
+    text-align: center;
+    box-sizing: content-box;
+    height: 90%;
+    font-size: 2.5vw;
+    position: relative;
+    top: -1.7vw;
+}
+.block2 a{
+    color: white;
+    text-decoration: none;
+}
+.block3 a{
+    color: white;
+    text-decoration: none;
+}
+#profile {
+    display: inline-block;
+    width: 6vw;
+    height: 100%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    background-color: rgba(200,200,200,0.4);
+    width: 99%;
+    height: auto;
+    position: relative;
+    top: 15vh;
+    margin-left: auto;
+    float: top;
+}
+#aboutme{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+
+}
+#blog{
+    display: none;
+    width: 100%;
+    height: 0vh;
+    transition: height 1.2s ease-in;
+    padding: 0;
+    margin: 0;
+    border-width: 0.1vw;
+    border-color: grey;
+    border-radius: 2%;
+    border-style: solid;
+    position: relative;
+}
+#friends{
+    display: none;
+    width: 100%;
+    height: 0vh;
+
+    transition: height 1.2s ease-in;
+    padding: 0;
+    margin: 0;
+    border-width: 0.1vw;
+    border-color: grey;
+    border-radius: 2%;
+    border-style: solid;
+}
+#friendlylinks{
+
+    width: 100%;
+    height: 0vh;
+    display: none;
+    transition: height 0.2s ease-in;
+    margin: 0;
+    border-width: 0.1vw;
+    border-color: grey;
+    border-radius: 2%;
+    border-style: solid;
+}
+#lengthen{
+    width: 100%;
+    height: 5vh;
+    transition: height 0.1s ease-in;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    float: left;
+    display: block;
+}
+#lengthen h5{
+    margin: 0 30%;
+    width: 40%;
+    height: 60%;
+    text-align: center;
+    line-height: 100%;
+
+    transition: background-color 3s ease-in-out;
+    position: relative;
+}
+#arrow{
+    width: 3vh;
+    height: 3vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#arrow1{
+    width: 3vh;
+    height: 3vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#arrow img{
+    height: 100%;
+    width: 100%;
+}
+#aboutme #info {
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+    font-family: Consolas, serif;
+}
+.border1{
+    border-width: 0.5vw;
+    border-color: azure;
+    border-radius: 2%;
+    width: 80%;
+    margin:auto;
+    border-style: solid;
+    padding: 2vh ;
+}
+b{
+    color: lemonchiffon;
+    font-weight: bold;
+}
+h2{
+    font-size: 1.5vw;
+}
+h3{
+    font-size: 1vw;
+}
+.friendnametag{
+    display: block;
+    padding: 1vw;
+    margin: 1vw;
+    border-width: 0.2vw;
+    border-style: solid;
+    border-color: azure;
+    box-shadow: 6px 4px 8px whitesmoke;
+    width: 18vw;
+    height: 10vw;
+    position: relative;
+    float: left;
+}
+.frindphoto{
+    display: block;
+    width:4vw ;
+    height: 4vw;
+    border-radius: 50%;
+    float: left;
+
+}
+.frindphoto img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.frindname{
+    display: block;
+    width: 12vw;
+    height:4vw;
+    float: left;
+    color: azure;
+    font-weight: bold;
+    font-family: "Times New Roman", Serif, serif;
+}
+.frindinfo{
+    display: block;
+    float: right;
+    width: 18vw;
+    height: 6vw;
+}
+.frindinfo h3{
+    padding: 0;
+    margin: 0;
+    color: azure;
+    font-size: xx-small;
+
+}
+
+
+
+.blogs{
+    overflow: hidden;
+    margin-top: 3vh;
+    width:48vw;
+    height: 20vw;
+    border-width: 1px;
+    border-radius: 5%;
+    border-color: azure;
+    border-style: hidden;
+    margin-left: 1px;
+    float: left;
+    transition:width 1.6s ease;
+    position: relative;
+}
+.blogs_pic{
+    float: left;
+    width: 0vw;
+    height: 100%;
+    background-image: url("default2.png");
+    background-repeat: no-repeat;
+    transition:width 1.6s ease;
+    background-size: 100% 100%;
+
+}
+.blogs_pic img{
+    width: 100%;
+    height: 100%;
+}
+.blogs_title{
+    float: right;
+    width: 0vw;
+    height: 20%;
+    transition:width 1.6s ease;
+    margin: 0;
+    padding: 0;
+
+}
+.blogs_title a{
+    text-decoration: none;
+}
+.blogs_description{
+    float: right;
+    width: 0vw;
+    height: 79%;
+    transition:width 1.6s ease;
+    margin: 0;
+    padding: 0;
+}
+.blogs_description a{
+    text-decoration: none;
+}
